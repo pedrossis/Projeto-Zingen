@@ -1,13 +1,13 @@
 .py-base {
-    padding-block: var(---py-base);
+    padding-block: var(--py-base);
 }
 
 .py-lg {
-    padding-block: var(---py-lg);
+    padding-block: var(--py-lg);
 }
 
 .py-xl {
-    padding-block: var(---py-xl);
+    padding-block: var(--py-xl);
 }
 
 .px-lg {
@@ -17,6 +17,8 @@
 .container {
     --max-width: 375px;
     width: min(var(--max-width), 100% - var(--px-lg) * 2);
+    /* border: solid violet; */
+    margin-inline: auto;
 }
 
 .desktop-only {
@@ -32,8 +34,16 @@
     display: flex;
 }
 
+.items-center {
+    align-items: center;
+}
+
 .gap-1 {
     gap: 1rem;
+}
+
+.gap-1\.5 {
+    gap: 1.5rem;
 }
 
 .grid {
