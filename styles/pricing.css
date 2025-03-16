@@ -1,0 +1,31 @@
+#pricing {
+    
+    & header {
+        max-width: 50rem;
+        margin-inline: auto;
+        text-align: center;
+    }
+
+    & .pricing-cards {
+        max-width: 20.4375rem;
+        background-color: var(--surface-color);
+        border-radius: 1.5rem;
+    }
+
+    & .price {
+        
+
+        & a {
+            min-width: 17.4375rem;
+            border-radius: .5rem;
+            border: 1px solid var(--text-color-primary);
+        }
+    }
+}
+
+@media (width >= 80rem) {
+    #pricing {
+        padding: 5rem 2rem;
+    }
+
+}
